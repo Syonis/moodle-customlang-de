@@ -1,0 +1,264 @@
+<?php
+
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Local language pack from ---
+ *
+ * @package    core
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['activeusers'] = 'Aktive Nutzer';
+$string['activityiscurrentlyhidden'] = 'Aktivität nicht verfügbar. Sie haben keinen Zugriff auf diese Aktivität. Wenn Sie denken, dass dies ein Fehler ist, wenden Sie sich bitte an Ihre Trainer.';
+$string['activityweighted'] = 'Aktivitäten pro Nutzer';
+$string['addadmin'] = 'Administrator hinzufügen';
+$string['addcreator'] = 'Kursersteller hinzufügen';
+$string['addnewuser'] = 'Nutzer anlegen';
+$string['addnousersrecip'] = 'Nutzer hinzufügen, die sich nicht in die Liste \'{$a}\' eingetragen haben';
+$string['addstudent'] = 'Teilnehmer hinzufügen';
+$string['addteacher'] = 'Trainer hinzufügen';
+$string['admin'] = 'Administrator';
+$string['adminhelpassignadmins'] = 'Administratoren haben vollen Zugriff auf die gesamte Website.';
+$string['adminhelpassigncreators'] = 'Kursersteller dürfen neue Kurse anlegen.';
+$string['adminhelpassignsiteroles'] = 'Definierte Rollen der Website auf ausgewählte Nutzer anwenden';
+$string['adminhelpassignstudents'] = 'Gehen Sie in einen Kurs und fügen Sie Teilnehme über das Administrationsmenü hinzu.';
+$string['adminhelpcourses'] = 'Kurse und Kursbereiche verwalten, Benutzer zuweisen und Kursanträge bearbeiten';
+$string['adminhelpmanageroles'] = 'Rollen definieren, die an Nutzer zugewiesen werden können';
+$string['adminhelpusers'] = 'Nutzer anlegen und Authentifizierung konfigurieren';
+$string['adminhelpxmldbeditor'] = 'Interface zum Bearbeiten von XMLDB-Dateien (nur für Entwickler)';
+$string['administrator'] = 'Administrator';
+$string['administratordescription'] = 'Administratoren haben alle Rechte für die Website und in allen Kursen.';
+$string['administrators'] = 'Administratoren';
+$string['administratorsall'] = 'Alle Administratoren';
+$string['administratorsandteachers'] = 'Administratoren und Trainer';
+$string['allparticipants'] = 'Alle Teilnehmer';
+$string['allteachers'] = 'Alle Trainer';
+$string['assignadmins'] = 'Administratoren zuweisen';
+$string['assigncreators'] = 'Kursersteller zuweisen';
+$string['authenticateduser'] = 'Authentifizierter Nutzer';
+$string['authenticateduserdescription'] = 'Alle authentifizierten Nutzer auf der Website';
+$string['chooseuser'] = 'Nutzer auswählen';
+$string['courseavailable'] = 'Für Teilnehmer verfügbar';
+$string['courseavailablenot'] = 'Für Teilnehmer nicht verfügbar';
+$string['coursecreators'] = 'Kursersteller';
+$string['coursecreatorsdescription'] = 'Kursersteller dürfen neue Kurse anlegen.';
+$string['courseduration_desc'] = 'Die Kursdauer wird zur Berechnung des Kursendes benutzt. Das Kursende ist für die Kursanzeige im Dashboard relevant. Das Kursende kann auch für nutzerdefinierte Berichte genutzt werden. Nutzer können auch nach dem Kursende den Kurs verwenden.';
+$string['coursehelpcategory'] = 'Kurse in der Kursliste positionieren, um den Teilnehmern das Auffinden zu erleichtern.';
+$string['coursehidden'] = 'Der Kurs steht aktuell für Teilnehmer nicht zur Verfügung.';
+$string['coursemessage'] = 'Mitteilung an Teilnehmer';
+$string['courseoverviewfiles_help'] = 'Das Kursbild wird in der Kursübersicht im Dashboard angezeigt. Weitere Dateitypen und zusätzliche Dateien können von Administratoren der Website aktiviert werden. Wenn weitere Dateien hochgeladen sind, werden sie neben der Kursbeschreibung in der Kursübersicht angezeigt.';
+$string['coursereasonforrejectingemail'] = 'Diese Mitteilung wird an den beantragenden Benutzer geschickt.';
+$string['courserejectreason'] = 'Stellen Sie bitte die Gründe für die Ablehnung des Kursantrags dar. <br />Ihre Mitteilung wird an den beantragenden Benutzer versendet.';
+$string['courserequestroleerror'] = 'Die Rolle für Kursersteller in der Konfiguration neuer Kurse ist ungültig. Beachten Sie bitte die <a href="{$a}">Nutzerrichtlinien</a>.';
+$string['courserequestsupport'] = 'Info für Administratoren, um diese Kursanfrage prüfen zu können';
+$string['courserequestwarning'] = 'Nutzer, die einen Kurs beantragen, werden automatisch mit der Rolle \'{$a}\' dort eingeschrieben.';
+$string['coursevisibility_help'] = '* Sichtbar machen: Der Kurs erscheint in der Kursliste und Teilnehmer können darauf zugreifen. * Verbergen: Der Zugriff ist auf Trainer und Nutzer beschränkt, die das Recht haben, verborgene Kurse anzuzeigen.';
+$string['createuser'] = 'Nutzer erstellen';
+$string['creatingusers'] = 'Nutzer erstellen';
+$string['currentlyselectedusers'] = 'Aktuell ausgewählte Nutzer';
+$string['defaultcoursestudent'] = 'Teilnehmer';
+$string['defaultcoursestudentdescription'] = 'Teilnehmer haben grundsätzlich weniger Rechte in einem Kurs.';
+$string['defaultcoursestudents'] = 'Teilnehmer';
+$string['defaultcourseteacher'] = 'Trainer';
+$string['defaultcourseteacherdescription'] = 'Trainer dürfen einen Kurs verwalten, Materialien hinzufügen, Aktivitäten bearbeiten und Teilnehmer beurteilen.';
+$string['defaultcourseteachers'] = 'Trainer';
+$string['defaulthomepageuser_help'] = 'Auf welche Seite sollten Nutzer umgeleitet werden, nachdem sie sich auf der Website angemeldet haben?';
+$string['displayingusers'] = 'Nutzer werden von {$a->start} bis {$a->end} angezeigt';
+$string['edulevel_help'] = '* Unterrichtend - Aktionen, die von Trainer durchgeführt wurden, z.B. Aktualisierung von Materialien * Teilnehmend - Aktionen, die von Teilnehmern durchgeführt wurden, z.B. Beteiligung in Foren * Andere - Aktionen, die von Personen mit andern Rollen durchgeführt wurden';
+$string['emailconfirmation'] = 'Guten Tag, mit Ihrer E-Mail-Adresse wurde ein neues Nutzerkonto für \'{$a->sitename}\' angefordert. Um das Nutzerkonto zu bestätigen, müssen Sie zur folgenden Webadresse gehen: {$a->link} In den meisten E-Mail-Programmen ist der Link aktiv und muss einfach angeklickt werden. Sollte das nicht funktionieren, kopieren Sie bitte die Webadresse in die Adresszeile des Browserfensters. Falls die Anmeldung nicht von Ihnen stammt, können Sie diese E-Mail ignorieren. Das Nutzerkonto wird automatisch gelöscht, wenn es nicht über den obigen Link bestätigt wird. Bei Problemen wenden Sie sich bitte an die Administratoren der Website. Viel Erfolg! {$a->admin}';
+$string['emailconfirmsent'] = '<p>Um sicherzugehen, dass sich niemand unberechtigt über die von Ihnen angegebene E-Mail anmeldet, wird eine automatische Benachrichtigung an diese Adresse <b>{$a}</b> gesendet.</p> <p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Registrierung bestätigen. Danach sind Sie auf dieser Moodle-Seite registriert und können sofort loslegen.</p> <p>Bei Problemen wenden Sie sich bitte an die Administratoren der Website.</p>';
+$string['emaildisplay_help'] = '* Verborgen - ausschließlich entsprechend berechtigte Nutzer (z.B. Trainer) können die E-Mail-Adresse sehen * Sichtbar für alle - Alle auf der Website können die E-Mail-Adresse sehen * Sichtbar für Teilnehmer im Kurs - Nur Teilnehmer, die in Ihren Kursen eingeschrieben sind, können die E-Mail-Adresse sehen';
+$string['emaildisplaycourse'] = 'Sichtbar für Teilnehmer im Kurs';
+$string['emaildisplaycoursemembersonly'] = '(sichtbar für Teilnehmer im Kurs)';
+$string['emaildisplayhide'] = '(Verborgen außer für entsprechend berechtigte Benutzer)';
+$string['emailonlyallowed'] = 'Diese E-Mail-Adresse ({$a}) kann nicht verwendet werden. Wenden Sie sich bei Fragen an die Administratoren.';
+$string['emailpasswordchangeinfo'] = 'Guten Tag {$a->firstname}, jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang \'{$a->username}\' auf \'{$a->sitename}\' angefordert. Um das Kennwort zu ändern, klicken Sie bitte auf den folgenden Link: <a href="{$a->link}">Kennwort ändern</a> Bei Problemen wenden Sie sich bitte an den Administrator der Website. {$a->admin}';
+$string['emailpasswordchangeinfodisabled'] = 'Guten Tag {$a->firstname}, jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'{$a->sitename}\' angefordert. Leider ist Ihr Zugang zu dieser Website deaktiviert und kann nicht automatisch zurückgesetzt werden. Wenden Sie sich bitte an die Administratoren der Website. {$a->admin}';
+$string['emailpasswordchangeinfofail'] = 'Guten Tag {$a->firstname}, jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'{$a->sitename}\' angefordert. Leider kann das Kennwort auf diesem Weg nicht geändert werden. Wenden Sie sich bitte an die Administratoren der Website. {$a->admin}';
+$string['emailpasswordconfirmation'] = 'Guten Tag {$a->firstname} {$a->lastname}, jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'{$a->sitename}\' angefordert. Um dies zu bestätigen und ein neues Kennwort per E-Mail zu erhalten, klicken Sie bitte auf den folgenden Link: <a href="{$a->link}">Neues Kennwort anfordern</a> Sollten Sie die Kennwortanforderung nicht selber ausgelöst haben, hat vermutlich jemand anders Ihren Anmeldenamen oder Ihre E-Mail-Adresse eingegeben. Dies ist kein Grund zur Beunruhigung. Ignorieren Sie die Nachricht dann bitte. Bei Problemen wenden Sie sich bitte an den Administrator der Website. {$a->admin}';
+$string['emailpasswordconfirmmaybesent'] = '<p>Wenn Sie den Anmeldenamen bzw. die eindeutige E-Mail-Adresse richtig angegeben haben, wird eine automatische E-Mail an Sie gesendet.</p><p>Die Mitteilung enthält eine Anleitung, wie Sie das Zurücksetzen des Kennwortes abschließen. Bei Problemen wenden Sie sich an die Administratoren der Website.</p>';
+$string['emailpasswordconfirmnoemail'] = 'Das angegebene Nutzerkonto hat keine eingetragene E-Mail-Adresse. Wenden Sie sich bitte an die Administratoren der Website.';
+$string['emailpasswordconfirmnotsent'] = 'Die Eingabe passt zu keinem vorhandenen Nutzerkonto. Prüfen Sie die Eingabe und versuchen Sie es noch einmal. Bei Problemen wenden Sie sich an die Administratoren der Website.';
+$string['emailpasswordconfirmsent'] = 'Es wurde eine E-Mail an Ihre Adresse <b>{$a}</b> gesendet. <br />Die E-Mail enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen. Bei Problemen wenden Sie sich an die Administratoren der Website.';
+$string['emailresetconfirmation'] = 'Hallo {$a->firstname}, jemand (wahrscheinlich Sie) hat bei \'{$a->sitename}\' das Zurücksetzen des Kennwortes für das Nutzerkonto \'{$a->username}\' angefordert. Um diese Anforderung zu bestätigen und um ein neues Kennwort zu bekommen, klicken Sie bitte auf den folgenden Link: <a href="{$a->link}">Kennwort zurücksetzen</a> Dieser Link ist {$a->resetminutes} Minuten nach der Anforderung gültig. Sollte die Kennwortanforderung nicht von Ihnen selber sein, müssen Sie nichts weiter tun. Bei Problemen wenden Sie sich bitte an den Administrator der Website. {$a->admin}';
+$string['emailresetconfirmsent'] = 'Eine E-Mail wurde an Ihre Adresse bei <b>{$a}</b> gesendet. <br />Sie enthält eine einfache Anleitung, wie Sie weiter vorgehen müssen, um das Kennwort zu ändern. Wenn Sie Schwierigkeiten haben, wenden Sie sich bitte an einen Administrator.';
+$string['emailtoprivatefilesdenied'] = 'Administratoren haben diese Option zum Hochladen in \'Meine Dateien\' deaktiviert.';
+$string['enddate_help'] = 'Das Enddatum schränkt den Zugang von Teilnehmern zum Kurs nicht ein. Das Enddatum bestimmt, dass ein Kurs in "Meine Kurse" als "vergangen" aufgeführt wird.';
+$string['enddatewithtaskenabled_help'] = 'Das Enddatum ist das Datum, zu dem der Kurs verborgen wird und Teilnehmer nicht länger zugreifen können.';
+$string['eventuserloggedout'] = 'Nutzer abgemeldet';
+$string['existingadmins'] = 'Vorhandene Administatoren';
+$string['existingcreators'] = 'Vorhandene Kursersteller';
+$string['existingstudents'] = 'Eingeschriebene Teilnehmer';
+$string['existingteachers'] = 'Vorhandene Trainer';
+$string['forcepasswordchange_help'] = 'Wenn diese Option aktiviert ist, muss der Nutzer sein Kennwort beim nächsten Login ändern.';
+$string['forcepasswordresetfailurenotice'] = 'Ihr aktuelles Kennwort entspricht nicht mehr den Kennwortregeln der Website. Fragen Sie Ihre Administratoren, wenn Sie Unterstützung brauchen.     {$a}';
+$string['groupinfopeople'] = 'Info über die markierten Teilnehmer';
+$string['groupnonmembers'] = 'Teilnehmer, die keiner Gruppe zugeordnet sind';
+$string['grouprandomassign'] = 'Teilnehmer per Zufall auf die Gruppen verteilen';
+$string['hiddenfromstudents'] = 'Für Teilnehmer verborgen';
+$string['hiddensections_help'] = 'Verborgene Abschnitte können den Teilnehmern auf der Kursseite als "nicht verfügbar" angezeigt oder vollständig ausgeblendet bleiben.';
+$string['hiddensectionscollapsed_description'] = 'Den Teilnehmern werden die Abschnittsnamen angezeigt, die Abschnittsinhalte sind jedoch ausgeblendet.';
+$string['hiddensectionsinvisible_description'] = 'Ausgeblendete Abschnitte werden den Teilnehmern nicht angezeigt.';
+$string['hidecategorymany'] = 'Der Kursbereich {$a->category} enthält {$a->coursecount} Kurse. <br/>Wenn Sie den Kursbereich ausblenden, haben Nutzer ohne Berechtigung zum Anzeigen ausgeblendeter Kursbereiche keinen Zugriff mehr auf die Kurse.';
+$string['hidecategoryone'] = 'Der Kursbereich {$a->category} enthält 1 Kurs. <br/>Wenn Sie den Kursbereich ausblenden, haben Nutzer ohne Berechtigung zum Anzeigen ausgeblendeter Kursbereiche keinen Zugriff mehr auf den Kurs.';
+$string['hidefromstudents'] = 'Für Teilnehmer verborgen';
+$string['htmleditordisabledadmin'] = 'Die Administratoren haben den HTML-Editor deaktiviert.';
+$string['includeallusers'] = 'Alle Nutzer einbeziehen';
+$string['includecourseusers'] = 'Kursteilnehmer einbeziehen';
+$string['includeneededusers'] = 'Notwendige Nutzer einbeziehen';
+$string['includenoneusers'] = 'Nicht-Nutzer einbeziehen';
+$string['indicator:accessesafterend_help'] = 'Dieser Indikator zeigt die Zugriffe von Teilnehmern nach dem Kursende an.';
+$string['indicator:accessesbeforestart_help'] = 'Dieser Indikator zeigt die Zugriffe von Teilnehmern von dem Kursbeginn an.';
+$string['indicator:activitiesdue_help'] = 'Der Benutzer hat fällige Aktivitäten.';
+$string['indicator:anycourseaccess_help'] = 'Dieser Indikator gibt den Zugriff zu jedem Kurs an, in dem der Nutzer eingeschrieben ist.';
+$string['indicator:anywrite_help'] = 'Dieser Indikator stellt jede Schreib- bzw. Abgabeaktion von Teilnehmern dar.';
+$string['indicator:anywriteincourse_help'] = 'Dieser Indikator stellt jede Schreib- bzw. Abgabeaktion von Teilnehmern dar, u.z. in jeder Kursaktivität.';
+$string['indicator:completeduserprofile_help'] = 'Dieser Indikator zeigt an, dass der Teilnehmer das Nutzerprofil vervollständigt hat.';
+$string['indicator:completeduserprofiledef_help'] = 'Die Richtlinien der Website wurden akzeptiert und der Nutzer hat die folgenden Felder ausgefüllt: Institution, Abteilung, Adresse, Stadt, Land, Webseite.';
+$string['indicator:nostudent'] = 'Einschreibungen von Teilnehmern';
+$string['indicator:nostudent_help'] = 'Der Indikator zeigt die Verfügbarkeit von Teilnehmern im Kurs.';
+$string['indicator:noteacher'] = 'Trainerverfügbarkeit';
+$string['indicator:noteacher_help'] = 'Der Indikator zeigt die Verfügbarkeit von Trainern im Kurs.';
+$string['indicator:potentialcognitive_help'] = 'Dieser Indikator basiert auf der potentiellen kognitiven Tiefe, die ein Benutzer in dieser Aktivität erreichen konnte.';
+$string['indicator:potentialsocial_help'] = 'Dieser Indikator basiert auf der potentiellen sozialen Breite, die ein Benutzer in dieser Aktivität erreichen konnte.';
+$string['indicator:potentialsocialdef_help'] = 'Der Grad, in dem der Kurs ein "breites" soziales Engagement bietet, das mit anderen Teilnehmern und der Praxis-Community außerhalb des Kurses interagiert.';
+$string['indicator:readactions_help'] = 'Dieser Indikator stellt die Anzahl aller Lese- bzw. Ansichtsaktionen von Teilnehmern dar.';
+$string['indicator:userforumstracking'] = 'Nutzer verfolgt Foren';
+$string['indicator:userforumstracking_help'] = 'Dieser Indikator zeigt an, ob der Teilnehmer das Tracking in den Foren eingeschaltet hat oder nicht.';
+$string['instudentview'] = 'Ansicht als Teilnehmer';
+$string['listofallpeople'] = 'Liste aller Nutzer';
+$string['loginaspasswordexplain'] = '<p>Sie müssen das spezielle Kennwort für die "Anmeldung als" verwenden. <br />Falls Ihnen dieses Kennwort nicht kennen, wenden Sie sich an die Administratoren.</p>';
+$string['loginstatusers'] = 'Nutzer';
+$string['mailadmins'] = 'Administratoren informieren';
+$string['mailstudents'] = 'Teilnehmer informieren';
+$string['mailteachers'] = 'Trainer informieren';
+$string['maximumupload_help'] = 'Diese Einstellung legt die maximal zulässige Dateigröße fest, die Teilnehmer im Kurs hochladen können. Zusätzlich können Sie die maximale Dateigröße für jede Aktivität weiter einschränken.';
+$string['memberincourse'] = 'Kursteilnehmer';
+$string['messagedselectedusers'] = 'Die ausgewählten Nutzer wurden benachrichtigt, und die Empfängerliste wurde zurückgesetzt.';
+$string['messagedselectedusersfailed'] = 'Beim Versenden der Mitteilung ist ein Problem aufgetreten. Es kann sein, dass einzelne Empfänger die Mitteilung dennoch erhalten haben.';
+$string['messageprovider:badgecreatornotice'] = 'Systemnachricht an Badge-Ersteller';
+$string['messageprovider:badgerecipientnotice'] = 'Systemnachricht an Badge-Empfänger';
+$string['messageprovider:errors_help'] = 'Auf diese schwerwiegenden Fehler sollten Sie die Administratoren der Website unbedingt hinweisen.';
+$string['messageprovider:instantmessage_help'] = 'In diesem Bereich wird festgelegt, was mit Mitteilungen passieren soll, die von anderen Nutzern direkt an Sie gesendet werden.';
+$string['messageprovider:notices_help'] = 'Es gibt Hinweise, die Administratoren sehen sollten.';
+$string['messageselect'] = 'Wählen Sie diesen Benutzer zum E-Mail-Versand aus';
+$string['missingstudent'] = 'Sie müssen einen Benutzer auswählen';
+$string['missingteacher'] = 'Sie müssen einen Benutzer auswählen';
+$string['modhidden_help'] = '* Auf der Kursseite ausblenden: Für Teilnehmer nicht verfügbar. Dieses Modul wird Teilnehmern nicht angezeigt.';
+$string['modvisible_help'] = '* Auf Kursseite anzeigen: Verfügbar für Teilnehmer (vorbehaltlich eventuell festgelegter Zugriffsbeschränkungen). * Auf Kursseite verbergen: Nicht verfügbar für Teilnehmer.';
+$string['modvisiblehiddensection_help'] = '* Auf Kursseite verbergen: Nicht verfügbar für Teilnehmer. * Verfügbar, aber auf Kursseite nicht anzeigen: Verfügbar nur für Teilnehmer, die den Link haben. Verborgene Aktivitäten werden weiterhin in Bewertungen und Berichten angezeigt.';
+$string['modvisiblewithstealth_help'] = '* Auf Kursseite anzeigen: Verfügbar für Teilnehmer (vorbehaltlich eventuell festgelegter Zugriffsbeschränkungen). * Auf Kursseite verbergen: Nicht verfügbar für Teilnehmer. * Verfügbar, aber auf Kursseite nicht anzeigen: Verfügbar nur für Teilnehmer, die den Link haben. Verborgene Aktivitäten werden weiterhin in Bewertungen und Berichten angezeigt.';
+$string['moodlenet:issuerisnotauthorized'] = 'MoodleNet-Austeller ist nicht autorisiert.';
+$string['newpasswordtext'] = 'Guten Tag {$a->firstname} {$a->lastname}, Ihr Kennwort auf \'{$a->sitename}\' wurde zurückgesetzt. Ihnen ist ein temporäres Kennwort zugewiesen worden. Ihre Zugangsdaten lauten jetzt: Anmeldename: {$a->username} Kennwort: {$a->newpassword} Bitte folgen Sie diesem Link und ändern Sie Ihr Kennwort: {$a->link} In den meisten E-Mail-Programmen ist der Link aktiv und muss einfach angeklickt werden. Sollte das nicht funktionieren, kopieren Sie bitte die Webadresse in die Adresszeile des Browserfensters. Bei Problemen wenden Sie sich bitte an die Administratoren der Website. Viel Erfolg! {$a->signoff}';
+$string['newsitemsnumber_help'] = 'Im Ankündigungsforum ist standardmäßig ein verpflichtendes Abonnement festgelegt. Nur Trainer und Nutzer mit entsprechenden Rechten können darin Beiträge schreiben. Wenn Sie kein Ankündigungsforum benötigen, setzen Sie diesen Wert auf Null. Die Einstellung bestimmt auch, wie viele Ankündigungen im Block "Neue Ankündigungen" angezeigt werden.';
+$string['newusernewpasswordtext'] = 'Hallo {$a->firstname}, für Sie wurde ein neuer Zugang auf \'{$a->sitename}\' angelegt. Für Sie gelten folgende Anmeldedaten: Anmeldename: {$a->username} Kennwort: {$a->newpassword} Sie werden aufgefordert, dieses Kennwort beim ersten Anmelden zu ändern. <a href="{$a->link}">Hier zum Anmelden klicken</a> und die Nutzung von \'{$a->sitename}\' beginnen. Bei Problemen wenden Sie sich bitte an den Administrator der Website. {$a->signoff}';
+$string['newusers'] = 'Neue Nutzer';
+$string['nomatchingusers'] = 'Keine passenden Nutzer \'{$a}\\';
+$string['noneditingteacher'] = 'Trainer ohne Bearbeitungsrecht';
+$string['noneditingteacherdescription'] = 'Trainer ohne Bearbeitungsrecht dürfen in Kursen unterrichten und Teilnehmer bewerten, aber sie können nichts im Kurs verändern.';
+$string['nopotentialadmins'] = 'Keine potenziellen Administratoren vorhanden';
+$string['nopotentialcreators'] = 'Keine möglichen Kursersteller vorhanden';
+$string['nopotentialstudents'] = 'Keine potenziellen Teilnehmer vorhanden';
+$string['nopotentialteachers'] = 'Keine potenziellen Trainer vorhanden';
+$string['nostudentsingroup'] = 'Derzeit sind keine Teilnehmer in dieser Gruppe eingetragen.';
+$string['nostudentsyet'] = 'In diesem Kurs sind noch keine Teilnehmer eingeschrieben.';
+$string['noteachersyet'] = 'Dieser Kurs hat noch keine Trainer';
+$string['noteachingupcomingcourses'] = 'Anstehende Kurse haben keine Trainer und keine Teilnehmer';
+$string['notenrolledprofile'] = 'Das Profil ist nicht verfügbar, weil dieser Benutzer den Kurs bisher nicht betreten hat.';
+$string['noteuserschangednonetocourse'] = 'Hinweis: Bei der Wiederherstellung von Nutzerdaten (Aktivitäten, Dateien, Mitteilungen) müssen auch die Teilnehmer wiederhergestellt werden. Diese Einstellung wurde automatisch geändert.';
+$string['nousersfound'] = 'Keine Nutzer gefunden';
+$string['nousersmatching'] = 'Es wurden keine zu \'{$a}\' passenden Nutzer gefunden.';
+$string['nousersyet'] = 'Bislang keine Nutzer vorhanden';
+$string['oauth2:continueasuser:changeuser'] = 'Nutzer ändern';
+$string['participants'] = 'Teilnehmer';
+$string['participantscount'] = 'Anzahl der Teilnehmer: {$a}';
+$string['participantslist'] = 'Liste der Teilnehmer';
+$string['passwordnohelp'] = 'Leider ist keine Hilfe vorhanden, um das vergessene Kennwort wiederherzustellen. Bitte wenden Sie sich an Ihre Administratoren.';
+$string['paymentsorry'] = 'Vielen Dank für Ihre Zahlung. Sobald die Zahlung bearbeitet wurde, können Sie auf den Kurs {$a->fullname} zugreifen. Warten Sie bitte und versuchen Sie es dann erneut. Sollten weiterhin Probleme auftreten, wenden Sie sich bitte an {$a->teacher} oder die Website-Administratoren.';
+$string['potentialadmins'] = 'Mögliche Administratoren';
+$string['potentialcreators'] = 'Mögliche Kursersteller';
+$string['potentialstudents'] = 'Mögliche Teilnehmer';
+$string['potentialteachers'] = 'Mögliche Trainer';
+$string['primaryadminsetup'] = 'Konto für Hauptadministrator';
+$string['privacy:metadata:config_log:userid'] = 'Die ID des Benutzers, der die Änderungen vorgenommen hat.';
+$string['privacy:metadata:moodlenet_share_progress:userid'] = 'Der Benutzer, der die Freigabe ausgeführt hat';
+$string['privacy:metadata:oauth2_refresh_token:scopehash'] = 'Nutzer-ID des Benutzers, zu dem das Token gehört';
+$string['privacy:metadata:oauth2_refresh_token:token'] = 'Aktualisierungstoken für die Bereiche und Nutzer';
+$string['privacy:metadata:oauth2_refresh_token:userid'] = 'Nutzer-ID des Benutzers, zu dem das Token gehört';
+$string['privacy:metadata:task_log:userid'] = 'Benutzer, zu dem die Task gehört.';
+$string['privacy:metadata:upgrade_log:userid'] = 'Die ID des Benutzers, der die Aktualisierung ausgeführt hat.';
+$string['profilenotshown'] = 'Das Nutzerprofil wird erst angezeigt, wenn der Benutzer in mindestens einem Kurs eingeschrieben ist.';
+$string['registrationinfo'] = '<p>Diese Seite ermöglicht Ihnen, die Ihre Website bei moodle.org zu registrieren. Die Registrierung ist freiwillig. Mit der Registrierung werden Sie in einer Mailingliste eingetragen, über die Sie regelmäßig Mitteilungen zu Sicherheitsproblemen und neuen Versionen erhalten.</p> <p>Ihre Daten werden nicht veröffentlicht oder an dritte weitergegeben. Die Daten werden erhoben, um Support anbieten zu können und eine Statistik zur Moodle-Community als Gesamtheit darzustellen.</p> <p>Wenn Sie Ihre Website registrieren, können Sie den Seitennamen, das Land und die URL in einer öffentlichen Liste von Moodle-Websites anzeigen.</p> <p>Jede Registrierung wird manuell geprüft, bevor sie zur Liste hinzugefügt wird. Sie können Ihre Registrierung aktualisieren, indem Sie dieses Formular erneut absenden.</p>';
+$string['relativedatesmode_help'] = 'Kurs- oder Aktivitätsdaten relativ zum persönlichen Startdatum im Kurs anzeigen. Das persönliche Startdatum des Kurses ist das jeweilige Einschreibedatum, es sei denn, der Benutzer ist vor Kursbeginn angemeldet. In diesem Fall ist das persönliche Startdatum das Startdatum für den Kurs. WARNUNG: Dies ist eine experimentelle Funktion, die möglicherweise nicht von allen Aktivitäten unterstützt wird. Sobald der Kurs erstellt wurde, kann diese Kurseinstellung nicht mehr geändert werden.';
+$string['removeadmin'] = 'Administrator löschen';
+$string['removecreator'] = 'Kursersteller löschen';
+$string['removestudent'] = 'Teilnehmer löschen';
+$string['removeteacher'] = 'Trainer löschen';
+$string['rolerenaming_help'] = 'Mit dieser Option können die Namen der Rollen in Ihrem Kurs umbenannt werden. Wenn Sie z.B. \'Trainer\' in \'Dozent\' für den aktuellen Kurs umbenennen wollen, tragen Sie dies hier ein. Die Rollenberechtigungen werden durch das Umbenennen nicht verändert. Die geänderten Rollenbezeichnungen sind in der Nutzerliste und an anderen Stellen des Kurses zu sehen. Ist die umbenannte Rolle eine Kursverwalterrolle, dann wird der neue Rollenname ebenso in der Kursliste angezeigt.';
+$string['rsserrorguest'] = 'Dieser RSS Feed verwendet den Gastzugang für den Datenzugriff. Gäste haben jedoch keine Leserechte für die Inhalte. Gehen Sie nochmals als berechtigter Nutzer zur Ursprungssseite für den Feed (URL) und rufen Sie den RSS Feed erneut von dort auf.';
+$string['rsskeyshelp'] = '<p>Um Datenschutz und Sicherheit zu gewährleisten, werden RSS-Feed-URLs mit einem nutzerspezifischen Token versehen. Dies verhindert, dass unberechtigte Nutzer einen Zugang zu den RSS Feeds erhalten.</p> <p>Das persönliche Token wird beim ersten Zugriff erzeugt. Wenn Sie befürchten, dass Ihr Token unberechtigt benutzt wird, können Sie das Token aktualisieren. Beachten Sie, dass Ihre aktuellen RSS-Feed-URLs automatisch ungültig werden.</p>';
+$string['scale_help'] = '<p>Dozenten können neue Bewertungskalen erstellen, die in allen Bewertungsaktivitäten eingesetzt werden können.</p> <p>Der Name der Skala sollte ein einfacher Satz oder Begriff sein, der den Charakter eindeutig beschreibt: Er wird in Auswahllisten und in der Kontexthilfe verwandt.</p> <p>Die Skala wird durch eine geordnete Liste von Werten definiert, die vom negativen zum positiven Wert geordnet ist. Die einzelnen Werte werden durch Kommas getrennt. Zum Beispiel:</p> <blockquote><i>enttäuschend, nicht gut genug, durchschnittlich, gut, sehr gut, ausgezeichnet!</i></blockquote> <p>Skalen sollten eine gute Beschreibung ihrer Bedeutung und ihrer Verwendung beinhalten, denn sie (die Beschreibung) wird auch in Hilfeseiten für Trainer und Teilnehmer verwendet.</p> <p>Am Schluss haben Sie eine oder mehrere Standard-Bewertungsskalen auf der Systemverwaltungsseite festgelegt, die in allen Kursen genutzt werden können.</p>';
+$string['searchusers'] = 'Nutzer suchen';
+$string['selctauser'] = 'Nutzer auswählen';
+$string['selectallusersonpage'] = 'Alle Nutzer auf dieser Seite auswählen';
+$string['selectalluserswithcount'] = 'Alle {$a} Nutzer auswählen';
+$string['separateandconnectedinfo'] = 'Die Skala basiert auf der Theorie von sachbezogenem, isoliertem und vernetztem, beziehungsorientiertem Denken (Belenky). Die Theorie beschreibt zwei unterschiedliche Wege, wie wir lernen und evaluieren können. <ul> <li><<strong>Getrennt/isoliert Denkende</strong> versuchen so objektiv wie möglich zu bleiben und Gefühle und Emotionen nicht zu berücksichtigen. In einer Diskussion mit anderen verteidigen Sie ihre Ideen und analysieren logisch die Ideen der anderen, um darin Schwachstellen zu finden. </li><li> <strong>Vernetzt/beziehungsorientierte</strong> sind sehr empfindsam gegenüber anderen Menschen. Sie sind gut trainiert, Empathie zu zeigen, anderen zuzuhören und Fragen zu stellen. Sie stellen eine Verbindung zu anderen her und können sich in deren Standpunkt hineinversetzen. Sie lernen durch den Austausch von Erfahrungen und das führt sie zu dem Wissen anderer Menschen. </li></ul>';
+$string['showallusers'] = 'Alle Nutzer anzeigen';
+$string['showgrades_help'] = 'Teilnehmern erlauben, eine Liste ihrer Bewertungen im Kurs zu sehen.';
+$string['showreports_help'] = 'Teilnehmern erlauben, die eigenen Aktivitätsberichte über ihre Profilseite zu sehen.';
+$string['sitemessage'] = 'Nutzer benachrichtigen';
+$string['sitepartlist1'] = 'Sie müssen Trainerrechte besitzen, um die vollständige Nutzerliste sehen zu können.';
+$string['siteteachers'] = 'Trainer der Website';
+$string['startdatewithtaskenabled_help'] = 'Das Startdatum ist das Datum, an dem der Kurs für Teilnehmer sichtbar wird. Vor diesem Datum ist der Zugang zum Kurs nicht möglich. Dieses Datum bestimmt auch den Beginn der ersten Woche für einen Kurs im wöchentlichen Format und ist das Startdatum für Protokolle der Kursaktivitäten. Wenn Sie den Kurs zurücksetzen und dieses Datum ändern, werden alle Termine im Kurs in Bezug auf das neue Startdatum verschoben.';
+$string['statsmodedetailed'] = 'Detailansicht der Nutzer';
+$string['statsnodatauser'] = 'Es gibt keine Daten für die Kombination aus Kurs, Nutzer und Zeitraum.';
+$string['statsreport10'] = 'Aktivitäten der Nutzer';
+$string['statsreport4'] = 'Alle Aktivitäten (Trainer und Teilnehmer)';
+$string['statsstudentactivity'] = 'Aktivitäten der Teilnehmer';
+$string['statsstudentreads'] = 'Zugriffe von Teilnehmern';
+$string['statsstudentwrites'] = 'Beiträge der Teilnehmer';
+$string['statsteacheractivity'] = 'Aktivitäten der Trainer';
+$string['statsteacherreads'] = 'Trainerzugriffe';
+$string['statsteacherwrites'] = 'Beiträge der Trainer';
+$string['students'] = 'Teilnehmer';
+$string['studentsandteachers'] = 'Teilnehmer und Trainer';
+$string['suspendedusers'] = 'Gesperrte Nutzer';
+$string['teachers'] = 'Trainer';
+$string['textediting_help'] = 'Wenn ein HTML-Editor (z.B. Atto oder TinyMCE) ausgewählt ist, wird die Texteingabe mit einer Werkzeugleiste zur einfachen HTML-Formatierung angezeigt. Wenn \'Einfacher Text\' ausgewählt ist, können Texte über HTML-Tags oder Markdown formatiert werden. Die verfügbaren Texteditoren werden von den Administratoren festgelegt.';
+$string['toomanytoshow'] = 'Zu viele Nutzer, um alle anzuzeigen';
+$string['toomanyusersmatchsearch'] = 'Zu viele Nutzer ({$a->count}) passend zu \'{$a->search}\\';
+$string['toomanyuserstoshow'] = 'Zu viele Nutzer ({$a}), um alle anzuzeigen';
+$string['unknownuser'] = 'Nutzer unbekannt';
+$string['user'] = 'Nutzer';
+$string['usermatchedon'] = 'Nutzer passt über folgendes Feld zur Suche';
+$string['users'] = 'Nutzer';
+$string['userselectorautoselectunique'] = 'Wenn nur ein Nutzer den Suchkriterien entspricht, wähle diesen automatisch.';
+$string['userselectorpreserveselected'] = 'Ausgewählte Nutzer behalten, wenn sie nicht mehr zur Suche passen.';
+$string['usersnew'] = 'Neue Nutzer';
+$string['userswithfiles'] = 'Nutzer mit Dateien';
+$string['visible_help'] = 'Diese Option legt fest, ob der Kurs in der Kursliste verfügbar ist. Außer Trainern und Admistratoren kann niemand den Kurs betreten.';
+$string['withselectedusers'] = 'Mit ausgewählten Nutzern …';
+$string['wordforstudent'] = 'Bezeichnung für Teilnehmer';
+$string['wordforstudenteg'] = 'z.B. Teilnehmer, Student, Schüler usw.';
+$string['wordforstudents'] = 'Bezeichnung für Teilnehmer';
+$string['wordforstudentseg'] = 'z.B. Teilnehmer, Studenten, Schüler usw.';
+$string['wordforteacher'] = 'Bezeichnung für Trainer';
+$string['wordforteachereg'] = 'z.B. Trainer, Berater, Moderator usw.';
+$string['wordforteachers'] = 'Bezeichnung für Trainer';
+$string['wordforteacherseg'] = 'z.B. Trainer, Berater, Moderatoren usw.';
