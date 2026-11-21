@@ -2,13 +2,17 @@
 
 Dieses Repository stellt deutsche Moodle-Sprachanpassungen bereit. Ziel ist die Verwendung des **generischen Maskulinums** anstelle von Gender-Schreibweisen, bei möglichst verständlichen und grammatikalisch korrekten Formulierungen.
 
-## Pakete
+## Sprachpakete und Moodle-App
 
 | Paket | PHP-Dateien | Inhalt |
 | --- | ---: | --- |
 | [`customlang_de_min/`](customlang_de_min/) | 275 | Bisherige, manuell gepflegte und geprüfte Sprachanpassungen |
 | [`customlang_de_full/`](customlang_de_full/) | 686 | MIN sowie 411 zusätzliche, KI-gestützt bearbeitete Sprachdateien (2.903 zusätzliche Strings) |
 | [`customlang_de_extra/`](customlang_de_extra/) | 9 | Neue deutsche Übersetzungen für ausgewählte Plugins ohne mitgelieferte deutsche Sprachdatei |
+| [`APP.md`](APP.md) | – | Zusätzliche deutsche Sprachanpassungen für die Moodle-App mit Anleitung zur manuellen Einrichtung |
+
+**Hinweis:** Die Moodle-App-Anpassungen sind kein eigenständiges Importpaket. Die Texte müssen gemäß der Anleitung in APP.md über die Moodle-Administration eingerichtet werden.
+
 
 **MIN** ist das bisher angebotene und regelmäßig aktualisierte Paket.
 
