@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Local language pack from ---
+ * Local language pack from https://github.com/Syonis/moodle-customlang-de
  *
  * @package    core
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
